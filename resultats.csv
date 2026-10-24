@@ -1,0 +1,13 @@
+Fichier,Algo,Taille initiale (o),Taille compressée (o),Taux (%),Temps compression (s),Intégrité
+texte.txt,bzip2,500725,102566,79.52,0.039,OK
+texte.txt,lzma,500725,99735,80.08,0.19,OK
+texte.txt,7z,500725,99880,80.05,0.177,OK
+audio.mp3,bzip2,960813,945977,1.54,0.104,OK
+audio.mp3,lzma,960813,945276,1.62,0.308,OK
+audio.mp3,7z,960813,945558,1.59,0.354,OK
+image.png,bzip2,1092036,1097314,-0.48,0.138,OK
+image.png,lzma,1092036,1105616,-1.24,0.335,OK
+image.png,7z,1092036,1092245,-0.02,0.358,OK
+video.mp4,bzip2,3874417,3885539,-0.29,0.47,OK
+video.mp4,lzma,3874417,3915243,-1.05,1.405,OK
+video.mp4,7z,3874417,3866766,0.2,1.179,OK
